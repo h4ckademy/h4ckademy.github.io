@@ -1,17 +1,17 @@
-.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.inscription form section input, article.inscription form section label, article.welcome p a.readmore, article.partners ul li a.sprite_partners {
+.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.inscription form section input, article.inscription form section label, article.welcome p a.readmore, article.partners ul li a.sprite_partners, header section p a {
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
   transition: 0.2s ease-in; }
 
 /* general grid */
-.grid, article, footer {
+.grid, article, header, footer {
   width: 100%;
   max-width: 1366px;
   margin: 0 auto; }
 
 /* content grid */
-.grid_content, article.inscription header.top_form h1, article.inscription header.top_form p, article.why ul li h3, article.why ul li p, article.decoration h2, article.decoration p, article.faq section h4, article.faq section p {
+.grid_content, article.inscription header.top_form h1, article.inscription header.top_form p, article.why ul li h3, article.why ul li p, article.decoration h2, article.decoration p, article.faq section h4, article.faq section p, header section p {
   width: 70%;
   margin: 0 auto; }
 
@@ -40,7 +40,7 @@
         color: #1d1919; }
 
 /* Radius */
-.rad_small, article.inscription form section input, article.inscription form section textarea, article.inscription form section select, article.welcome p a.readmore {
+.rad_small, article.inscription form section input, article.inscription form section textarea, article.inscription form section select, article.welcome p a.readmore, header section p a {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -95,13 +95,13 @@ article.inscription {
       width: 100%; }
     article.inscription form section.input--filled input, article.inscription form section.input--filled select, article.inscription form section.input--filled textarea {
       background: white;
-      border-bottom: 4px solid #a6e22e; }
+      border-bottom: 4px solid #6dd053; }
     article.inscription form section.input--filled select {
       color: #1d1919; }
     article.inscription form section.input--filled label {
       top: 0;
       left: 2.5%;
-      color: #a6e22e;
+      color: #6dd053;
       font-size: 1.2em;
       text-transform: uppercase; }
     article.inscription form section input, article.inscription form section textarea, article.inscription form section select {
@@ -219,7 +219,7 @@ article {
           padding: 0;
           margin: 0;
           letter-spacing: -5px;
-          color: #a6e22e; }
+          color: #6dd053; }
     article.welcome p {
       padding: 5% 0;
       color: white;
@@ -346,6 +346,42 @@ article {
       font-size: 1.5em; }
 
 /* content pages */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 999;
+  background: black; }
+  header section {
+    width: 50%;
+    padding: 10px 0;
+    float: left;
+    color: white; }
+    header section p a {
+      display: block;
+      width: 170px;
+      text-align: center;
+      color: white;
+      float: right;
+      padding: 10px 0;
+      text-decoration: none;
+      background: #6dd053;
+      font-size: 1.5em; }
+      header section p a:hover {
+        text-decoration: underline; }
+    header section p.title_header {
+      font-weight: 100;
+      line-height: 40px;
+      font-size: 2.3em; }
+      header section p.title_header span {
+        color: #6dd053;
+        letter-spacing: -2px; }
+      header section p.title_header::first-letter {
+        letter-spacing: -5px; }
+
 /* header */
 footer {
   padding: 50px 0;
@@ -358,7 +394,7 @@ footer {
   article.welcome {
     background-attachment: initial !important; } }
 @media only screen and (max-width: 768px) {
-  .grid_content, article.inscription header.top_form h1, article.inscription header.top_form p, article.why ul li h3, article.why ul li p, article.decoration h2, article.decoration p, article.faq section h4, article.faq section p {
+  .grid_content, article.inscription header.top_form h1, article.inscription header.top_form p, article.why ul li h3, article.why ul li p, article.decoration h2, article.decoration p, article.faq section h4, article.faq section p, header section p {
     width: 90%; }
 
   article.last-news section ul li {

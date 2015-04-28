@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 999;
+  background: black;
+  @extend .grid;
+  section {
+    width: 50%;
+    padding: 10px 0;
+    float: left;
+    color: white;
+    p {
+      @extend .grid_content;
+      a {
+        display: block;
+        width: 170px;
+        text-align: center;
+        color: white;
+        float: right;
+        padding: 10px 0;
+        text-decoration: none;
+        background: $corporative;
+        font-size: 1.5em;
+        @extend .rad_small;
+        @extend .t;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &.title_header {
+        font-weight: 100;
+        line-height: 40px;
+        font-size: 2.3em;
+        span {
+          color: $corporative;
+          letter-spacing: -2px;
+        }
+        &::first-letter {
+          letter-spacing: -5px;
+        }
+      }
+    }
+  }
+}
