@@ -273,7 +273,8 @@ article {
         padding: 5% 0;
         font-size: 3em; }
       article.why ul li p {
-        font-size: 1.5em;
+        font-size: 1.9em;
+        line-height: 1.6em;
         color: #6d6d6d; }
   article.decoration h2, article.decoration p {
     z-index: 2; }
