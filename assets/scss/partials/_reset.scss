@@ -1,0 +1,17 @@
+
+section, article, figure, header, label, input, textarea {
+	display: block;
+}
+             
+body, h1, h2, h3, h4, h5, h6, ul, p {
+	margin: 0;
+	padding: 0;       
+}               
+       
+*:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}

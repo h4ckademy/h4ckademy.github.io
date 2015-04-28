@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>h4ckademy | yeah babe</title>                                       
+	<meta name="author" content="codecantor">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!-- format scss -->
+	<link rel="stylesheet" href="assets/scss/style.css">      
+	<!-- webfont google -->	                         
+	<link href='http://fonts.googleapis.com/css?family=Roboto:500,100,300,700,400' rel='stylesheet' type='text/css'>
+</head>
+<body>   
+	<article class="inscription">
+		<header class="top_form">
+			<h1>
+				Apply to h4ckademy
+			</h1>
+			<p>
+				Here is your first challenge. May the source be with you!
+			</p>
+		</header>
+		<!-- copypaste form -->
+		<form id="contact_form" method="post" action="/users/new">
+			<h2>
+				Contact info
+			</h2>
+			<section class="two_columns form_section">
+				<label>Full Name</label>
+				<input type="text" name="name" id="name" value="" required="true">
+			</section>
+			<section class="two_columns form_section">
+				<label>Email</label>
+				<input type="email" name="email" id="email" value="" required="true">
+			</section>
+			<section class="two_columns form_section">
+				<label>City</label>
+				<input type="text" name="city" id="city" value="" required="true">
+			</section>
+			<section class="two_columns form_section">
+				<label>Country</label>
+				<input type="text" name="country" id="country" value="" required="true">
+			</section>
+			<section class="two_columns form_section">
+				<select name="age" id="age" required="true">
+					<option value="">Select Age</option>
+					<option value="1">&lt; 18</option>
+					<option value="2">18 - 24</option>
+					<option value="3">25 - 34</option>
+					<option value="4">35 - 44</option>
+					<option value="5">45 - 54</option>
+					<option value="6">&gt; 55</option>
+				</select>
+			</section>
+			<section class="two_columns form_section">
+					<select name="status" id="status" required="true">
+						<option value="">Select Current Situation</option>
+						<option value="1">Student</option>
+						<option value="2">Self-employed</option>
+						<option value="3">Paid employment</option>
+						<option value="4">Unemployed</option>
+					</select>
+			</section>
+			<h2>
+				Digital info
+			</h2>
+			<section class="two_columns form_section">
+				<label>Github</label>
+				<input type="text" name="github" id="github" value="" required="true">
+			</section>
+			<section class="two_columns form_section">
+				<label>LinkedIn</label>
+				<input type="text" name="linkedin" id="linkedin" value="" required="true">
+			</section>
+			<section class="two_columns form_section no_bordertop">
+				<label>Blog</label>
+				<input type="text" name="blog" id="blog" value="">
+			</section>
+			<section class="two_columns form_section no_bordertop">
+				<label>Other link: personal website, twitter, etc.</label>
+				<input type="text" name="other" id="other" value="">
+			</section>
+			<h2>
+				Background info
+			</h2>
+			<section class="one_column form_section">
+				<label>Share one_column amazing your learned in the past month (related or not to programming)</label>
+				<textarea name="learn" id="learn" maxlength="1500" required="true"></textarea>
+			</section>
+			<section class="one_column form_section">
+				<label>Describe briefly your former programming experience</label>
+				<textarea name="experience" id="experience" maxlength="1500" required="true"></textarea>
+			</section>
+			<section class="one_column form_section">
+				<label>Why do you apply to <strong>h<span class="green">4</span>ck</strong>ademy? What do you expect from the experience?</label>
+				<textarea name="why" id="why" maxlength="1500" required="true"></textarea>
+			</section>
+			<section class="one_column form_section">
+				<label>What are your learning objectives for the 9 weeks? What kind of projects do you want to work on?</label>
+				<textarea name="objective" id="objective" maxlength="1500" required="true"></textarea>
+			</section>
+			<section class="one_column form_section">
+				<input class="button" value="Apply" readonly="true"></li><span id="hint"></span>
+			</section>
+		</form>
+		<!-- fin form -->
+	</article>
+	<footer>
+		Final page.
+	</footer>	
+	<!-- js input form -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="assets/js/form.js"></script>
+</body>
+</html>

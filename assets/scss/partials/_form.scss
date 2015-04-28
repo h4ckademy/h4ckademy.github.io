@@ -1,0 +1,104 @@
+article {
+  &.inscription {
+    max-width: 768px;
+    background: $gdark !important;
+    header {
+      &.top_form {
+        padding: 10% 0;
+        text-align: center;
+        background: $gdark;
+        color: white;
+        h1, p {
+          @extend .grid_content;
+        }
+        h1 {
+          font-size: 4em;
+          padding-bottom: 2%;
+          font-weight: 300;
+        }
+        p {
+          font-size: 2em;
+          font-weight: 100;
+          color: $glight;
+        }
+      }
+    }
+    form {
+      h2 {
+        color: white;
+        font-size: 2.5em;
+        padding: 5% 0;
+        text-align: center;
+        clear: both;
+      }
+      section {
+        height: inherit;
+        padding: 20px 0;
+        position: relative;
+        &.two_columns {
+          width: 50%;
+          float: left;
+        }
+        &.one_column {
+          width: 100%;
+        }
+        &.input--filled {
+          input, select, textarea {
+            background: white;
+            border-bottom: 4px solid $corporative;
+          }
+          select {
+            color: $gdark;
+          }
+          label {
+            top: 0;
+            left: 2.5%;
+            color: $corporative;
+            font-size: 1.2em;
+            text-transform: uppercase;
+          }
+        }
+        input, textarea, select {
+          width: 95%;
+          margin: 0 auto;
+          font-size: 2em;
+          border: 1px solid transparent;
+          color: white;
+          background: $inputform;
+          padding: 5%;
+          display: block;
+          border-bottom: 4px solid transparent;
+          @extend .rad_small;
+        }
+        input {
+          color: $gdark;
+          font-weight: 400;
+          @extend .t;
+        }
+        textarea {
+          min-height: 250px;
+        }
+        label {
+          display: inline;
+          font-weight: 400;
+          letter-spacing: 1px;
+          position: absolute;
+          z-index: 9999;
+          top: 50%;
+          left: 7.5%;
+          color: white;
+          font-size: 1.5em;
+          line-height: 0;
+          @extend .t;
+        }
+        select {
+          font-size: 1.5em;
+          height: 70px;
+          border: 0;
+          background: transparent;
+          border-bottom: 1px solid #f0f0f0;
+        }
+      }
+    }
+  }
+}

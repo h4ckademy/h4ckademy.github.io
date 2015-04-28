@@ -1,0 +1,287 @@
+article {
+  @extend .grid;
+  overflow: hidden;
+  background: white;
+  section {
+    height: 100%;
+    &.one_cl {
+      width: 100%;
+    }
+    &.two_cl {
+      width: 50%;
+      float: left;
+    }
+  }
+  &.last-news {
+    h2.title_news {
+      @extend .title_format;
+    }
+    section {
+      width: 85%;
+      height: inherit !important;
+      margin: 0 auto;
+      ul {
+        padding: 0 0 10% 0;
+        overflow: hidden;
+        li {
+          width: 20%;
+          border-right: 1px solid #f0f0f0;
+          float: left;
+          padding-right: 2.5%;
+          margin-right: 2.5%;
+          &:last-child {
+            border-right: 0;
+            margin-right: 0;
+            padding-right: 0;
+          }
+          span.date {
+            color: $glight;
+            font-size: 1.3em;
+            font-style: italic;
+            display: block;
+          }
+          h3 {
+            padding: 5% 0;
+            font-size: 2em;
+            a {
+              color: $gdark;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+          p {
+            font-size: 1.5em;
+            padding: 2% 0;
+            line-height: 1.5em;
+            color: $glight;
+            a {
+              color: $gdark;
+              text-decoration: none;
+              font-style: italic;
+              &:hover {
+                text-decoration: underline;
+                color: $gdark;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.welcome {
+    height: 100%;
+    background: transparent url('../img/welcome.jpg') center no-repeat fixed;
+    h1, p {
+      width: 90%;
+      margin: 0 auto;
+      max-width: 600px;
+      text-align: center;
+    }
+    h1 {
+      font-weight: 500;
+      margin-top: 15%;
+      font-size: 6em;
+      &::first-letter {
+        letter-spacing: -10px;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        span {
+          padding: 0;
+          margin: 0;
+          letter-spacing: -5px;
+          color: $corporative;
+        }
+      }
+    }
+    p {
+      padding: 5% 0;
+      color: white;
+      font-size: 4em;
+      font-weight: 100;
+      a {
+        &.readmore {
+          width: 100%;
+          max-width: 120px;
+          margin: 0 auto;
+          display: block;
+          letter-spacing: 1px;
+          border: 2px solid white;
+          font-weight: 100;
+          color: white;
+          text-transform: uppercase;
+          padding: 15px 55px;
+          font-size: 0.4em;
+          text-decoration: none;
+          opacity: 0.7;
+          box-sizing: content-box;
+          @extend .t;
+          @extend .rad_small;
+          &:hover {
+            opacity: 1
+          }
+        }
+      }
+    }
+  }
+  &.why {
+    section {
+      height: inherit !important;
+    }
+    h2.title_why {
+      @extend .title_format;
+    }
+    ul {
+      overflow: hidden;
+      padding-bottom: 10%;
+      li {
+        width: 40%;
+        height: 40%;
+        margin: 2% 5%;
+        float: left;
+        span {
+          &.icon {
+            display: block;
+            width: 125px;
+            height: 125px;
+            margin: 0 auto;
+            background: transparent url('../img/icon.png') no-repeat;
+          }
+          &.support {
+            background-position: -428px -16px;
+          }
+          &.directed {
+            background-position: -21px -16px;
+          }
+          &.challeng {
+            background-position: -156px -16px;            
+          }
+          &.talent {
+            background-position: -292px -16px;
+          }
+        }
+        h3, p {
+          text-align: center;
+          @extend .grid_content;
+        }
+        h3 {
+          color: $gdark;
+          padding: 5% 0;
+          font-size: 3em;
+        }
+        p {
+          font-size: 1.5em;
+          color: $glight;
+        }
+      }
+    }
+  }
+  &.decoration {
+    h2, p {
+      z-index: 2;
+      @extend .grid_content;
+    }
+    h2 {
+      padding-top: 20%;
+      font-size: 3em;
+      letter-spacing: -1px;
+    }
+    p {
+      padding-top: 5%;
+      font-weight: 300;
+      color: $glight;
+      line-height: 1.5em;
+      font-size: 2em;
+    }
+    section {
+      &.bck_image {
+        z-index: 1;
+        text-indent: -99999px;
+        min-height: 100%;
+        display: block;
+        background: #f0f0f0;
+      }
+      &.book {
+        background: transparent url('../img/book.jpg') left no-repeat fixed;
+      }
+      &.table {
+        background: transparent url('../img/table.jpg') center no-repeat fixed;
+      }
+    }
+  }
+  &.partners {
+    color: white;
+    background: $gdark;
+    section {
+      height: inherit !important;
+    }
+    h2.title_partner {
+      @extend .title_format;
+      color: white;
+    }
+    ul {
+      padding-bottom: 5%;
+      text-align: center;
+      overflow: hidden;
+      li {
+        width: 200px;
+        display: inline-block;
+        margin: 0 5px;
+        a {
+          &.sprite_partners {
+            display: block;
+            width: 222px;
+            height: 90px;
+            text-indent: -99999px;
+            background: transparent  url('../img/partners.png') no-repeat;
+            opacity: 0.6;
+            @extend .t;
+            &:hover {
+              opacity: 1;
+            }
+          }
+          &.cartodb {
+            background-position: 9px -24px;
+          }
+          &.traity {
+            background-position: -192px -22px;
+          }
+          &.shuttlecloud {
+            background-position: 9px -131px;
+          }
+          &.people {
+            background-position: 9px -231px;
+          }
+          &.lextrend {
+            background-position: -192px -126px;
+          }
+        }
+      }
+    }
+  }
+  &.faq {
+    h2.title_faq {
+      @extend .title_format;
+    }
+    section {
+      height: auto !important;
+      h4, p {
+        padding: 2% 0;
+        @extend .grid_content;
+      }
+      h4 {
+        margin-top: 5%;
+        font-size: 2.4em;
+        font-weight: 400;
+      }
+      p {
+        color: $glight;
+        line-height: 1.8em;
+        font-size: 1.5em;
+      }
+    }
+  }
+}
