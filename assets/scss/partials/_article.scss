@@ -131,6 +131,7 @@ article {
   }
   &.why {
     section {
+      padding: 5% 0;
       height: inherit !important;
     }
     h2.title_why {
@@ -140,9 +141,9 @@ article {
       overflow: hidden;
       padding-bottom: 10%;
       li {
-        width: 40%;
+        width: 25%;
         height: 40%;
-        margin: 2% 5%;
+        margin: 2% 0;
         float: left;
         span {
           &.icon {

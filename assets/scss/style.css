@@ -360,14 +360,15 @@ article {
         article.welcome p a.readmore:hover {
           opacity: 1; }
   article.why section {
+    padding: 5% 0;
     height: inherit !important; }
   article.why ul {
     overflow: hidden;
     padding-bottom: 10%; }
     article.why ul li {
-      width: 40%;
+      width: 25%;
       height: 40%;
-      margin: 2% 5%;
+      margin: 2% 0;
       float: left; }
       article.why ul li span.icon {
         display: block;
