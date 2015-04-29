@@ -156,48 +156,51 @@ article {
     article section.two_cl {
       width: 50%;
       float: left; }
-  article.last-news section {
-    width: 85%;
-    height: inherit !important;
-    margin: 0 auto; }
-    article.last-news section ul {
-      padding: 0 0 10% 0;
-      overflow: hidden; }
-      article.last-news section ul li {
-        width: 20%;
-        border-right: 1px solid #f0f0f0;
-        float: left;
-        padding-right: 2.5%;
-        margin-right: 2.5%; }
-        article.last-news section ul li:last-child {
-          border-right: 0;
-          margin-right: 0;
-          padding-right: 0; }
-        article.last-news section ul li span.date {
-          color: #6d6d6d;
-          font-size: 1.3em;
-          font-style: italic;
-          display: block; }
-        article.last-news section ul li h3 {
-          padding: 5% 0;
-          font-size: 2em; }
-          article.last-news section ul li h3 a {
-            color: #1d1919;
-            text-decoration: none; }
-            article.last-news section ul li h3 a:hover {
-              text-decoration: underline; }
-        article.last-news section ul li p {
-          font-size: 1.5em;
-          padding: 2% 0;
-          line-height: 1.5em;
-          color: #6d6d6d; }
-          article.last-news section ul li p a {
-            color: #1d1919;
-            text-decoration: none;
-            font-style: italic; }
-            article.last-news section ul li p a:hover {
-              text-decoration: underline;
-              color: #1d1919; }
+  article.last-news {
+    background: transparent url("../img/h4ckademy_experiences.jpg") center no-repeat fixed; }
+    article.last-news section {
+      width: 85%;
+      height: inherit !important;
+      margin: 0 auto; }
+      article.last-news section ul {
+        padding: 0 0 10% 0;
+        overflow: hidden; }
+        article.last-news section ul li {
+          width: 20%;
+          background: rgba(0, 0, 0, 0.6);
+          border-right: 1px solid #1d1919;
+          float: left;
+          padding-right: 2.5%;
+          margin-right: 2.5%; }
+          article.last-news section ul li:last-child {
+            border-right: 0;
+            margin-right: 0;
+            padding-right: 0; }
+          article.last-news section ul li span.date {
+            color: #6d6d6d;
+            font-size: 1.3em;
+            font-style: italic;
+            display: block; }
+          article.last-news section ul li h3 {
+            padding: 5% 0;
+            font-size: 2em; }
+            article.last-news section ul li h3 a {
+              color: white;
+              text-decoration: none; }
+              article.last-news section ul li h3 a:hover {
+                text-decoration: underline; }
+          article.last-news section ul li p {
+            font-size: 1.5em;
+            padding: 2% 0;
+            line-height: 1.5em;
+            color: #6d6d6d; }
+            article.last-news section ul li p a {
+              color: #1d1919;
+              text-decoration: none;
+              font-style: italic; }
+              article.last-news section ul li p a:hover {
+                text-decoration: underline;
+                color: #1d1919; }
   article.welcome {
     height: 100%;
     background: transparent url("../img/welcome.jpg") center no-repeat fixed; }
@@ -276,6 +279,28 @@ article {
         font-size: 1.9em;
         line-height: 1.6em;
         color: #6d6d6d; }
+  article.colaboradores section {
+    height: auto; }
+    article.colaboradores section ul {
+      overflow: hidden; }
+      article.colaboradores section ul li {
+        width: 260px;
+        display: inline-block;
+        margin: 0 5px; }
+        article.colaboradores section ul li a {
+          text-indent: -9999px;
+          text-decoration: none;
+          display: block; }
+          article.colaboradores section ul li a.colabora {
+            width: 250px;
+            height: 99px;
+            background: transparent url("../img/colaboradores.png") no-repeat; }
+          article.colaboradores section ul li a.code {
+            background-position: -311px -9px; }
+          article.colaboradores section ul li a.tetuan {
+            background-position: -609px -9px; }
+          article.colaboradores section ul li a.lanave {
+            background-position: -18px -9px; }
   article.decoration h2, article.decoration p {
     z-index: 2; }
   article.decoration h2 {
@@ -332,18 +357,20 @@ article {
           background-position: 9px -231px; }
         article.partners ul li a.lextrend {
           background-position: -192px -126px; }
-  article.faq section {
-    height: auto !important; }
-    article.faq section h4, article.faq section p {
-      padding: 2% 0; }
-    article.faq section h4 {
-      margin-top: 5%;
-      font-size: 2.4em;
-      font-weight: 400; }
-    article.faq section p {
-      color: #6d6d6d;
-      line-height: 1.8em;
-      font-size: 1.5em; }
+  article.faq {
+    padding: 10% 0; }
+    article.faq section {
+      height: auto !important; }
+      article.faq section h4, article.faq section p {
+        padding: 2% 0; }
+      article.faq section h4 {
+        margin-top: 5%;
+        font-size: 2.4em;
+        font-weight: 400; }
+      article.faq section p {
+        color: #6d6d6d;
+        line-height: 1.8em;
+        font-size: 1.5em; }
 
 /* content pages */
 header {
