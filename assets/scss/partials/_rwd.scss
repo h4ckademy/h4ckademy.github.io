@@ -21,14 +21,22 @@
             width: 100%;
             margin: 0;
             padding-bottom: 5%;
-            p {
-              display: none;
+            margin-bottom: 5%;
+            a {
+              display: block;
             }
-            h3 {
+            p {
+              margin-top: 10px;
               a {
-                display: block;
-                padding: 5px;
-                background: #f0f0f0;
+                max-width: 100%;
+                text-align: center;
+                padding: 10px 0;
+                color: white;
+                background: $gdark;
+                &:hover {
+                  color: white;
+                  text-decoration: underline;
+                }
               }
             }
           }
@@ -89,6 +97,16 @@
       &.two_cl {
         width: 100% !important;
         float: none !important;
+      }
+    }
+  }
+  footer {
+    section {
+      .box_fot {
+        width: 100%;
+        padding-bottom: 25px;
+        margin: 0;
+        float: none;
       }
     }
   }
