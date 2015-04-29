@@ -6,6 +6,17 @@
     &.welcome {
       background-attachment: initial !important;
     }
+    &.why {
+      section {
+        ul {
+          li {
+            width: 50%;
+            height: inherit !important;
+            padding-bottom: 10%;
+          }
+        }
+      }
+    }
   }
 }
 

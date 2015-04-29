@@ -620,7 +620,11 @@ footer {
   article section.bck_image {
     background-attachment: initial !important; }
   article.welcome {
-    background-attachment: initial !important; } }
+    background-attachment: initial !important; }
+  article.why section ul li {
+    width: 50%;
+    height: inherit !important;
+    padding-bottom: 10%; } }
 @media only screen and (max-width: 768px) {
   .grid_content, article.inscription section.header_form h1, article.inscription section.header_form p, article.why ul li h3, article.why ul li p, article.colaboradores section ul, article.decoration h2, article.decoration p, article.faq section h4, article.faq section p, header section p, footer section {
     width: 90%; }
