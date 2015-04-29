@@ -17,18 +17,21 @@ header {
       @extend .grid_content;
       a {
         display: block;
-        width: 170px;
+        width: 150px;
         text-align: center;
         color: white;
         float: right;
+        border: 2px solid white;
         padding: 10px 0;
         text-decoration: none;
-        background: $corporative;
+        background: transparent;
         font-size: 1.5em;
         @extend .rad_small;
         @extend .t;
         &:hover {
-          text-decoration: underline;
+          width: 200px;
+          border: 2px solid $corporative;
+          background: $corporative;
         }
       }
       &.title_header {

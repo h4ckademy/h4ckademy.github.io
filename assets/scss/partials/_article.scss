@@ -13,7 +13,7 @@ article {
     }
   }
   &.last-news {
-    background: transparent url('../img/h4ckademy_experiences.jpg') center no-repeat fixed;
+    background: #f0f0f0;
     h2.title_news {
       @extend .title_format;
     }
@@ -26,8 +26,10 @@ article {
         overflow: hidden;
         li {
           width: 20%;
-          background: rgba(0,0,0,0.6);
-          border-right: 1px solid $gdark;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background: white;
+          border-right: 1px solid white;
           float: left;
           padding-right: 2.5%;
           margin-right: 2.5%;
@@ -36,17 +38,15 @@ article {
             margin-right: 0;
             padding-right: 0;
           }
-          span.date {
-            color: $glight;
-            font-size: 1.3em;
-            font-style: italic;
-            display: block;
+          h3, p {
+            width: 90%;
+            margin: 0 auto;
           }
           h3 {
             padding: 5% 0;
             font-size: 2em;
             a {
-              color: white;
+              color: $gdark;
               text-decoration: none;
               &:hover {
                 text-decoration: underline;
@@ -58,6 +58,12 @@ article {
             padding: 2% 0;
             line-height: 1.5em;
             color: $glight;
+            span.date {
+              color: $glight;
+              font-size: 0.9em;
+              font-style: italic;
+              display: block;
+            }
             a {
               color: $gdark;
               text-decoration: none;
@@ -85,6 +91,7 @@ article {
       font-weight: 500;
       margin-top: 15%;
       font-size: 6em;
+      @extend .flash_vertical;
       &::first-letter {
         letter-spacing: -10px;
       }
@@ -104,6 +111,7 @@ article {
       color: white;
       font-size: 4em;
       font-weight: 100;
+      @extend .flash;
       a {
         &.readmore {
           width: 100%;
@@ -183,35 +191,50 @@ article {
     }
   }
   &.colaboradores {
+    padding: 5% 0;
     section {
-        height: auto;
-        ul {
-            overflow: hidden;
-            li {
-              width: 260px;
-              display: inline-block;
-              margin: 0 5px;
-              a {
-                text-indent: -9999px;
-                text-decoration: none;
-                display: block;
-                &.colabora {
-                  width: 250px;
-                  height: 99px;
-                  background: transparent url('../img/colaboradores.png') no-repeat;
-                }
-                &.code {
-                  background-position: -311px -9px;
-                }
-                &.tetuan {
-                  background-position: -609px -9px;
-                }
-                &.lanave {
-                  background-position: -18px -9px;
-                }
-              }
+      height: auto;
+      h4 {
+        font-size: 1.3em;
+        text-transform: uppercase;
+        padding: 2% 0;
+        letter-spacing: 1px;
+        color: $glight;
+        text-align: center;
+        font-weight: 300;
+      }
+      ul {
+        @extend .grid_content;
+        text-align: center;
+        overflow: hidden;
+        li {
+          display: inline-block;
+          a {
+            text-indent: -9999px;
+            text-decoration: none;
+            display: block;
+            opacity: 0.5;
+            @extend .t;
+            &:hover {
+              opacity: 0.8;
             }
+            &.colabora {
+              width: 250px;
+              height: 99px;
+              background: transparent url('../img/colaboradores.png') no-repeat;
+            }
+            &.code {
+              background-position: -311px -9px;
+            }
+            &.tetuan {
+              background-position: -609px -6px;
+            }
+            &.lanave {
+              background-position: -18px -6px;
+            }
+          }
         }
+      }
     }
   }
   &.decoration {
@@ -270,6 +293,7 @@ article {
             display: block;
             width: 222px;
             height: 90px;
+            margin: 0 auto;
             text-indent: -99999px;
             background: transparent  url('../img/partners.png') no-repeat;
             opacity: 0.6;
@@ -298,7 +322,7 @@ article {
     }
   }
   &.faq {
-    padding: 10% 0;
+    padding: 5% 0 10% 0;
     h2.title_faq {
       @extend .title_format;
     }

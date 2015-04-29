@@ -1,5 +1,97 @@
 footer {
-  @extend .grid;
   padding: 50px 0;
-  background: white;
+ 	background: white;
+  overflow: hidden;
+  .credits {
+  	padding-top: 50px;
+  	text-align: center;
+  	font-size: 1.1em;
+  	text-align: center;
+  	color: $glight;
+  	a {
+  		color: $gdark;
+  		&:hover {
+  			text-decoration: none;
+  		}
+  	}
+  }
+  section {
+		@extend .grid_content;
+  	overflow: hidden;
+  	.box_fot {
+  		width: 25%;
+  		color: $glight;
+  		font-size: 1.4em;
+  		margin-right: 12.5%;
+  		border-top: 1px solid $glight;
+  		padding-top: 25px;
+  		float: left;
+  		&:last-child {
+  			margin-right: 0;
+  		}
+  		h5 {
+  			font-size: 1.6em;
+  			padding-bottom: 25px;
+  			font-weight: 600;
+  			color: $gdark;
+  		}
+  		a {
+  			color: $gdark;
+  			@extend .t;
+  			&:hover {
+  				color: black;
+  				text-decoration: none;
+  			}
+  		}
+  	}
+  	.about {
+  		p {
+  			line-height: 20px;
+  			padding: 5px 0;
+  			a {
+  				color: $gdark;
+  				&:hover {
+  					text-decoration: none;
+  				}
+  			}
+  		}
+  	}
+  	.newsletter {
+  		form {
+        width: 100%;
+        display: block;
+        overflow: hidden;
+  			padding: 0;
+        input {
+          width: 100%;
+          display: block;
+          font-size: 1em;
+          margin: 5px 0;
+          padding: 10px;
+          &.btn {
+            width: 100% !important;
+            padding: 10px;
+            color: white;
+            font-weight: 400;
+            border: 0;
+            background: $corporative;
+            float: right;
+            @extend .t;
+            @extend .rad_small;
+            &:hover {
+              cursor: pointer;
+              background: $gdark;
+            }
+          }
+        }
+  		}
+  	}
+  	.links {
+  		ul {
+  			li {
+  				padding: 5px 0;
+  			}
+  		}
+  	}
+  }
 }
