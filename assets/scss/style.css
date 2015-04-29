@@ -1,4 +1,4 @@
-.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.inscription form section input, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn {
+.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.inscription form section input, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn {
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
@@ -166,70 +166,92 @@ article.inscription {
       font-size: 2em;
       font-weight: 100;
       color: #6d6d6d; }
-  article.inscription form h2 {
-    color: white;
-    font-size: 2.5em;
-    padding: 5% 0;
-    text-align: center;
-    clear: both; }
-  article.inscription form section {
-    height: inherit;
-    padding: 20px 0;
-    position: relative; }
-    article.inscription form section.two_columns {
-      width: 50%;
-      float: left; }
-    article.inscription form section.one_column {
-      width: 100%; }
-      article.inscription form section.one_column label {
-        width: 100%;
-        text-align: center;
+  article.inscription form {
+    padding: 10% 0; }
+    article.inscription form h2 {
+      color: white;
+      font-size: 2.5em;
+      padding: 5% 0;
+      text-align: center;
+      clear: both; }
+    article.inscription form section {
+      height: inherit;
+      padding: 20px 0;
+      position: relative; }
+      article.inscription form section.two_columns {
+        width: 50%;
+        float: left; }
+      article.inscription form section.one_column {
+        width: 100%; }
+        article.inscription form section.one_column label {
+          width: 100%;
+          text-align: center;
+          font-size: 1.2em;
+          top: -10px !important;
+          left: 0 !important; }
+        article.inscription form section.one_column p.final_text {
+          max-width: 500px;
+          width: 100%;
+          font-size: 1.6em;
+          font-weight: 100;
+          font-style: italic;
+          margin: 0 auto;
+          padding: 25px 0;
+          text-align: center;
+          color: #6d6d6d; }
+      article.inscription form section.input--filled input, article.inscription form section.input--filled select, article.inscription form section.input--filled textarea {
+        background: white;
+        border-bottom: 4px solid #a6e22e; }
+      article.inscription form section.input--filled select {
+        color: #1d1919; }
+      article.inscription form section.input--filled label {
+        top: -5px;
+        left: 2.5%;
+        color: #a6e22e;
         font-size: 1.2em;
-        top: 0 !important;
-        left: 0 !important; }
-    article.inscription form section.input--filled input, article.inscription form section.input--filled select, article.inscription form section.input--filled textarea {
-      background: white;
-      border-bottom: 4px solid #a6e22e; }
-    article.inscription form section.input--filled select {
-      color: #1d1919; }
-    article.inscription form section.input--filled label {
-      top: 0;
-      left: 2.5%;
-      color: #a6e22e;
-      font-size: 1.2em;
-      text-transform: uppercase; }
-    article.inscription form section input, article.inscription form section textarea, article.inscription form section select {
-      width: 95%;
-      margin: 0 auto;
-      font-size: 2em;
-      border: 1px solid transparent;
-      color: white;
-      background: #474545;
-      padding: 5%;
-      display: block;
-      border-bottom: 4px solid transparent; }
-    article.inscription form section input {
-      color: #1d1919;
-      font-weight: 400; }
-    article.inscription form section textarea {
-      min-height: 250px; }
-    article.inscription form section label {
-      display: inline;
-      font-weight: 400;
-      letter-spacing: 1px;
-      position: absolute;
-      z-index: 9999;
-      top: 50%;
-      left: 7.5%;
-      color: white;
-      font-size: 1.5em;
-      line-height: 0; }
-    article.inscription form section select {
-      font-size: 1.5em;
-      height: 70px;
-      border: 0;
-      background: transparent;
-      border-bottom: 1px solid #f0f0f0; }
+        text-transform: uppercase; }
+      article.inscription form section input, article.inscription form section textarea, article.inscription form section select {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 2em;
+        border: 1px solid transparent;
+        color: white;
+        background: #474545;
+        padding: 5%;
+        display: block;
+        border-bottom: 4px solid transparent; }
+      article.inscription form section input {
+        color: #1d1919;
+        font-weight: 400; }
+        article.inscription form section input.button {
+          max-width: 250px;
+          padding: 20px 0;
+          color: white;
+          font-weight: 500;
+          border: 3px solid white;
+          background: transparent;
+          text-align: center; }
+      article.inscription form section textarea {
+        min-height: 250px;
+        color: #1d1919;
+        font-weight: 400; }
+      article.inscription form section label {
+        display: inline;
+        font-weight: 400;
+        letter-spacing: 1px;
+        position: absolute;
+        z-index: 9999;
+        top: 40%;
+        left: 7.5%;
+        color: white;
+        font-size: 1.5em;
+        line-height: 20px; }
+      article.inscription form section select {
+        font-size: 1.5em;
+        height: 70px;
+        border: 0;
+        background: #474545;
+        border: 1px solid #f0f0f0; }
 
 /* form inputs */
 body {
@@ -609,6 +631,9 @@ footer {
   .grid_content, article.inscription section.header_form h1, article.inscription section.header_form p, article.why ul li h3, article.why ul li p, article.colaboradores section ul, article.decoration h2, article.decoration p, article.faq section h4, article.faq section p, header section p, footer section {
     width: 90%; }
 
+  article.inscription section.one_column {
+    margin: 15px 0;
+    padding: 40px 0 !important; }
   article.last-news section ul li {
     width: 100%;
     margin: 0;
