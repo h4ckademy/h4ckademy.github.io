@@ -648,6 +648,7 @@ footer {
             color: white;
             text-decoration: underline; }
   article.welcome h1 {
+    padding-top: 15%;
     font-size: 4.2em; }
   article.welcome p {
     font-size: 3.2em;
