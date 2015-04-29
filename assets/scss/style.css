@@ -275,25 +275,18 @@ article {
   article.last-news {
     background: #f0f0f0; }
     article.last-news section {
-      width: 85%;
+      width: 100%;
       height: inherit !important;
       margin: 0 auto; }
       article.last-news section ul {
         padding: 0 0 10% 0;
         overflow: hidden; }
         article.last-news section ul li {
-          width: 20%;
-          padding-top: 20px;
-          padding-bottom: 20px;
+          width: 22%;
+          padding: 25px 0;
           background: white;
-          border-right: 1px solid white;
           float: left;
-          padding-right: 2.5%;
-          margin-right: 2.5%; }
-          article.last-news section ul li:last-child {
-            border-right: 0;
-            margin-right: 0;
-            padding-right: 0; }
+          margin: 0 1.5%; }
           article.last-news section ul li h3, article.last-news section ul li p {
             width: 90%;
             margin: 0 auto; }
@@ -634,24 +627,26 @@ footer {
   article.inscription section.one_column {
     margin: 15px 0;
     padding: 40px 0 !important; }
-  article.last-news section ul li {
-    width: 100%;
-    margin: 0;
-    padding-bottom: 5%;
-    margin-bottom: 5%; }
-    article.last-news section ul li a {
-      display: block; }
-    article.last-news section ul li p {
-      margin-top: 10px; }
-      article.last-news section ul li p a {
-        max-width: 100%;
-        text-align: center;
-        padding: 10px 0;
-        color: white;
-        background: #1d1919; }
-        article.last-news section ul li p a:hover {
+  article.last-news section ul {
+    display: none; }
+    article.last-news section ul li {
+      width: 100%;
+      margin: 0;
+      padding-bottom: 5%;
+      margin-bottom: 5%; }
+      article.last-news section ul li a {
+        display: block; }
+      article.last-news section ul li p {
+        margin-top: 10px; }
+        article.last-news section ul li p a {
+          max-width: 100%;
+          text-align: center;
+          padding: 10px 0;
           color: white;
-          text-decoration: underline; }
+          background: #1d1919; }
+          article.last-news section ul li p a:hover {
+            color: white;
+            text-decoration: underline; }
   article.welcome h1 {
     font-size: 4.2em; }
   article.welcome p {
