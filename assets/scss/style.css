@@ -623,6 +623,7 @@ footer {
     background-attachment: initial !important; }
   article.why section ul li {
     width: 50%;
+    min-height: 300px;
     height: inherit !important;
     padding-bottom: 10%; } }
 @media only screen and (max-width: 768px) {
