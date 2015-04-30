@@ -1,0 +1,16 @@
+article {
+	&.thanks {
+		padding: 150px 0;
+		p {
+			padding: 15px 0;
+			a {
+				color: $glight;
+				@extend .t;
+				&:hover {
+					color: white !important;
+					text-decoration: none;
+				}
+			} 
+		} 
+	}
+}

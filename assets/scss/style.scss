@@ -1,13 +1,16 @@
-
-
-@import "partials/_variables";  /* util variables */
-@import "partials/_animation";  /* css3 animation */
-@import "partials/_reset";  /* min reset */
-@import "partials/_form";  /* form inputs */
-@import "partials/_front";  /* estructure */
-@import "partials/_article"; /* content pages */
-@import "partials/_header"; /* header */
-@import "partials/_footer"; /* footer */
+/* recursos */
+@import "partials/_variables";  
+@import "partials/_animation"; 
+@import "partials/_reset";  
+/* form & thanks */
+@import "partials/_thanks";
+@import "partials/_form"; 
+/* general */ 
+@import "partials/_front";
+@import "partials/_article"; 
+@import "partials/_header";
+@import "partials/_footer";
+/* RWD */
 @import "partials/_rwd"; /* responsive */
 
 
