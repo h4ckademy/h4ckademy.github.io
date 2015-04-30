@@ -1,5 +1,5 @@
 /* recursos */
-.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.thanks p a, article.inscription form section input, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn {
+.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.thanks p a, article.inscription form section input, article.inscription form section input.button, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn {
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
@@ -160,9 +160,9 @@ article.thanks {
 
 article.inscription {
   max-width: 768px;
-  background: #1d1919 !important; }
+  background: transparent !important; }
   article.inscription section.header_form {
-    padding: 50px 0 0 0;
+    padding: 50px 0;
     height: auto !important; }
     article.inscription section.header_form h1, article.inscription section.header_form p {
       text-align: center; }
@@ -176,7 +176,7 @@ article.inscription {
       font-weight: 100;
       color: #6d6d6d; }
   article.inscription form {
-    padding: 5% 0; }
+    padding: 0 0 5% 0; }
     article.inscription form h2 {
       color: white;
       font-size: 2.5em;
@@ -240,6 +240,11 @@ article.inscription {
           border: 3px solid white;
           background: transparent;
           text-align: center; }
+          article.inscription form section input.button:hover {
+            max-width: 300px;
+            border: 3px solid #a6e22e;
+            cursor: pointer;
+            background: #a6e22e; }
       article.inscription form section textarea {
         min-height: 250px;
         color: #1d1919;
