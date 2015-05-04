@@ -441,7 +441,7 @@ article {
             article.colaboradores section ul li a:hover {
               opacity: 0.8; }
             article.colaboradores section ul li a.colabora {
-              width: 250px;
+              width: 220px;
               height: 99px;
               background: transparent url("../img/colaboradores.png") no-repeat; }
             article.colaboradores section ul li a.code {
