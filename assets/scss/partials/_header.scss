@@ -7,6 +7,10 @@ header {
   overflow: hidden;
   z-index: 999;
   background: black;
+  transition: top 0.2s ease-in-out;
+  &.nav-up {
+      top: -60px;
+  }
   @extend .grid;
   section {
     width: 50%;
