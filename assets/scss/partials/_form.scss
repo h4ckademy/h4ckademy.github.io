@@ -140,3 +140,14 @@ article {
     }
   }
 }
+
+a.backlink {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 50px;
+  &:hover {
+    text-decoration: none;
+  }
+}

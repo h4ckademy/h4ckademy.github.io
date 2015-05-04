@@ -225,6 +225,9 @@ article {
             &.lanave {
               background-position: -18px -6px;
             }
+            &.coontigo {
+              background-position: -889px -6px;
+            }
           }
         }
       }
@@ -246,6 +249,22 @@ article {
       color: $glight;
       line-height: 1.5em;
       font-size: 2em;
+      a {
+        display: block;
+        text-align: center;
+        max-width: 250px;
+        color: $glight;
+        text-decoration: none;
+        border: 1px solid $glight;
+        padding: 15px 0;
+        @extend .rad_small;
+        @extend .t;
+        &:hover {
+          background: $corporative;
+          border: 1px solid $corporative;
+          color: white;
+        }
+      }
     }
     section {
       &.bck_image {
