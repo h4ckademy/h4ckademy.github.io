@@ -437,7 +437,7 @@ article {
             text-indent: -9999px;
             text-decoration: none;
             display: block;
-            opacity: 0.5; }
+            opacity: 0.6; }
             article.colaboradores section ul li a:hover {
               opacity: 0.8; }
             article.colaboradores section ul li a.colabora {
@@ -452,6 +452,10 @@ article {
               background-position: -18px -6px; }
             article.colaboradores section ul li a.coontigo {
               background-position: -889px -6px; }
+            article.colaboradores section ul li a.googlecampus {
+              background-position: -1203px -6px; }
+            article.colaboradores section ul li a.madridemprende {
+              background-position: -1526px -6px; }
   article.decoration h2, article.decoration p {
     z-index: 2; }
   article.decoration h2 {

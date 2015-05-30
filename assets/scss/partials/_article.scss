@@ -206,7 +206,7 @@ article {
             text-indent: -9999px;
             text-decoration: none;
             display: block;
-            opacity: 0.5;
+            opacity: 0.6;
             @extend .t;
             &:hover {
               opacity: 0.8;
@@ -227,6 +227,12 @@ article {
             }
             &.coontigo {
               background-position: -889px -6px;
+            }
+            &.googlecampus {
+              background-position: -1203px -6px;
+            }
+            &.madridemprende {
+              background-position: -1526px -6px;
             }
           }
         }
