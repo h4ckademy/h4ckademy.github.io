@@ -253,15 +253,16 @@ article {
         display: block;
         text-align: center;
         max-width: 250px;
-        color: $glight;
+        color: white;
+        background: $corporative;
         text-decoration: none;
-        border: 1px solid $glight;
+        border: 1px solid $corporative;
         padding: 15px 0;
         @extend .rad_small;
         @extend .t;
         &:hover {
-          background: $corporative;
-          border: 1px solid $corporative;
+          background: #75A611;
+          border: 1px solid #75A611;
           color: white;
         }
       }
@@ -278,7 +279,7 @@ article {
         background: transparent url('../img/book.jpg') left no-repeat fixed;
       }
       &.table {
-        background: transparent url('../img/table.jpg') center no-repeat fixed;
+        background: transparent url('../img/table.jpg') right center no-repeat fixed;
       }
     }
   }
