@@ -291,11 +291,10 @@ article {
   }
   &.partners {
     color: white;
+    text-align: center;
+    padding-bottom: 100px !important;
     background: $gdark;
     a.link-partner {
-      display: block;
-      padding: 50px 0 100px 0;
-      text-align: center;
       color: white;
       text-decoration: none;
       font-size: 2em;
@@ -320,7 +319,7 @@ article {
       color: white;
     }
     ul {
-      padding-bottom: 5%;
+      padding-bottom: 100px;
       text-align: center;
       overflow: hidden;
       li {

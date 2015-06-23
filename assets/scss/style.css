@@ -511,11 +511,10 @@ article {
     background: transparent url("../img/table.jpg") right center no-repeat fixed; }
   article.partners {
     color: white;
+    text-align: center;
+    padding-bottom: 100px !important;
     background: #1d1919; }
     article.partners a.link-partner {
-      display: block;
-      padding: 50px 0 100px 0;
-      text-align: center;
       color: white;
       text-decoration: none;
       font-size: 2em; }
@@ -531,7 +530,7 @@ article {
     article.partners h2.title_partner {
       color: white; }
     article.partners ul {
-      padding-bottom: 5%;
+      padding-bottom: 100px;
       text-align: center;
       overflow: hidden; }
       article.partners ul li {
