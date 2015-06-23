@@ -1,6 +1,6 @@
 /* recursos */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,300italic,400italic);
-.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.thanks p a, article.inscription form section input, article.inscription form section input.button, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.decoration p a, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn, article.info_partners section.info_partners_images ul.info_partners_images_links li, article.info_partners section.info_partners_images ul.info_partners_images_links li a.icons-all-partners {
+.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.thanks p a, article.inscription form section input, article.inscription form section input.button, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.decoration p a, article.partners a.link-partner, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn, article.info_partners section.info_partners_images ul.info_partners_images_links li, article.info_partners section.info_partners_images ul.info_partners_images_links li a.icons-all-partners {
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
@@ -42,7 +42,7 @@
         color: #1d1919; }
 
 /* Radius */
-.rad_small, article.inscription form section input, article.inscription form section textarea, article.inscription form section select, article.welcome p a.readmore, article.decoration p a, header section p a, footer section .newsletter form input.btn {
+.rad_small, article.inscription form section input, article.inscription form section textarea, article.inscription form section select, article.welcome p a.readmore, article.decoration p a, article.partners a.link-partner span, header section p a, footer section .newsletter form input.btn {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -512,6 +512,20 @@ article {
   article.partners {
     color: white;
     background: #1d1919; }
+    article.partners a.link-partner {
+      display: block;
+      padding: 50px 0 100px 0;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      font-size: 2em; }
+      article.partners a.link-partner span {
+        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.2); }
+      article.partners a.link-partner:hover {
+        color: black; }
+        article.partners a.link-partner:hover span {
+          background: white; }
     article.partners section {
       height: inherit !important; }
     article.partners h2.title_partner {

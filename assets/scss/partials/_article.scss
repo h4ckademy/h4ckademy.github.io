@@ -292,6 +292,26 @@ article {
   &.partners {
     color: white;
     background: $gdark;
+    a.link-partner {
+      display: block;
+      padding: 50px 0 100px 0;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      font-size: 2em;
+      @extend .t;
+      span {
+        @extend .rad_small;
+        padding: 10px 20px;
+        background: rgba(0,0,0,0.2);
+      }
+      &:hover {
+        color: black;
+        span {
+          background: white;
+        }
+      }
+    }
     section {
       height: inherit !important;
     }
