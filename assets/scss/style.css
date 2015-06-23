@@ -1,5 +1,6 @@
 /* recursos */
-.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.thanks p a, article.inscription form section input, article.inscription form section input.button, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.decoration p a, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn {
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,300italic,400italic);
+.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.thanks p a, article.inscription form section input, article.inscription form section input.button, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.decoration p a, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn, article.info_partners section.info_partners_images ul.info_partners_images_links li, article.info_partners section.info_partners_images ul.info_partners_images_links li a.icons-all-partners {
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
@@ -47,6 +48,13 @@
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px; }
+
+.circle, article.info_partners ul.info_partners_text_info li .reasons {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%; }
 
 /* horitonztal */
 .flash, article.welcome p {
@@ -148,6 +156,16 @@ ul {
   list-style-type: none; }
 
 /* form & thanks */
+article.partners_page {
+  margin-top: 0 !important;
+  padding-top: 0 !important; }
+  article.partners_page h2.title_two_partner {
+    color: white;
+    padding: 50px;
+    font-size: 3em;
+    letter-spacing: -1px;
+    text-align: center;
+    font-weight: 400; }
 article.thanks {
   padding: 150px 0; }
   article.thanks p {
@@ -657,6 +675,149 @@ footer {
     footer section .links ul li {
       padding: 5px 0; }
 
+article.welcome_partners {
+  background: black url("../img/partners-h4ckademy.jpg") center center no-repeat;
+  background-size: 100%; }
+  article.welcome_partners section {
+    margin-top: 60px !important;
+    padding-top: 150px !important;
+    width: 85%;
+    margin: 0 auto; }
+    article.welcome_partners section h1, article.welcome_partners section p {
+      max-width: 800px; }
+    article.welcome_partners section h1 {
+      font-weight: 400;
+      font-size: 1.8em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      opacity: 0.7;
+      color: white; }
+    article.welcome_partners section p {
+      line-height: 1.4em;
+      padding: 20px 0 50px 0;
+      font-size: 4em;
+      color: white;
+      font-weight: 100; }
+article.info_partners {
+  padding: 100px 0 0 0 !important; }
+  article.info_partners p {
+    padding: 50px 0 0 0;
+    font-size: 2em;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em; }
+    article.info_partners p.or-back {
+      padding-top: 25px;
+      font-size: 1.5em;
+      padding-bottom: 150px;
+      font-style: italic; }
+      article.info_partners p.or-back a {
+        display: block;
+        padding-top: 25px;
+        color: #1d1919; }
+    article.info_partners p a {
+      color: #a6e22e; }
+      article.info_partners p a:hover {
+        text-decoration: none; }
+  article.info_partners ul.info_partners_text_info {
+    overflow: hidden;
+    padding: 50px 0 150px 0; }
+    article.info_partners ul.info_partners_text_info li {
+      width: 25%;
+      float: left; }
+      article.info_partners ul.info_partners_text_info li .reasons {
+        width: 100px;
+        height: auto;
+        padding: 50px 0;
+        text-align: center;
+        line-height: 0;
+        margin: 15px auto;
+        font-size: 4.2em;
+        font-weight: 100;
+        border: 2px solid #a6e22e; }
+      article.info_partners ul.info_partners_text_info li p {
+        width: 80%;
+        margin: 0 auto;
+        padding: 25px 0;
+        text-align: center;
+        font-size: 2em; }
+  article.info_partners section.info_partners_images {
+    margin-top: 50px;
+    padding: 50px 0 0 0;
+    background: transparent url("../img/cielo.jpg") top no-repeat;
+    background-size: auto 100%; }
+    article.info_partners section.info_partners_images ul.info_partners_images_links {
+      padding: 50px 0;
+      max-width: 800px;
+      margin: 0 auto;
+      overflow: hidden; }
+      article.info_partners section.info_partners_images ul.info_partners_images_links li {
+        width: 33%;
+        border-right: 1px solid black;
+        border-sizing: border-box;
+        float: left;
+        padding: 0 0 50px 0; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li:nth-child(3), article.info_partners section.info_partners_images ul.info_partners_images_links li:nth-child(6), article.info_partners section.info_partners_images ul.info_partners_images_links li:nth-child(9), article.info_partners section.info_partners_images ul.info_partners_images_links li:nth-child(12), article.info_partners section.info_partners_images ul.info_partners_images_links li:nth-child(15) {
+          border-right: 0; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.icons-all-partners {
+          width: 158px;
+          height: 80px;
+          margin: 0 auto;
+          text-indent: -9999999px;
+          display: block;
+          background: transparent url("../img/partners-all.png") no-repeat;
+          opacity: 1; }
+          article.info_partners section.info_partners_images ul.info_partners_images_links li a.icons-all-partners:hover {
+            opacity: 0.4; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-01 {
+          background-position: -45px -9px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-02 {
+          background-position: -45px -99px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-03 {
+          background-position: -45px -194px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-04 {
+          background-position: -45px -284px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-05 {
+          background-position: -45px -379px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-06 {
+          background-position: -45px -469px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-07 {
+          background-position: -45px -559px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-08 {
+          background-position: -45px -649px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-09 {
+          background-position: -45px -739px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-10 {
+          background-position: -45px -829px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-11 {
+          background-position: -45px -919px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-12 {
+          background-position: -45px -1014px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-13 {
+          background-position: -45px -1109px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-14 {
+          background-position: -45px -1180px; }
+        article.info_partners section.info_partners_images ul.info_partners_images_links li a.ic-15 {
+          background-position: -45px -1279px; }
+article.partners_page {
+  padding: 150px 0; }
+  article.partners_page section {
+    height: auto !important; }
+    article.partners_page section h2 {
+      padding: 50px 0; }
+    article.partners_page section h2 {
+      text-align: center;
+      font-size: 3em; }
+
+header.nav-page a {
+  display: block !important;
+  border: 0 !important;
+  width: auto !important; }
+  header.nav-page a:hover {
+    background: transparent !important;
+    text-decoration: underline; }
+
 /* RWD */
 @media only screen and (max-width: 1024px) {
   article section.bck_image {
@@ -667,8 +828,26 @@ footer {
     width: 50%;
     min-height: 300px;
     height: inherit !important;
-    padding-bottom: 10%; } }
+    padding-bottom: 10%; }
+
+  article.welcome_partners {
+    background-size: auto 100% !important; }
+    article.welcome_partners p {
+      font-size: 2.5em !important; } }
 @media only screen and (max-width: 768px) {
+  /* partner page */
+  ul.info_partners_text_info li {
+    width: 100% !important;
+    float: none; }
+
+  ul.info_partners_images_links li {
+    width: 50% !important;
+    border: 0 !important;
+    box-sizing: border-box; }
+    ul.info_partners_images_links li:nth-child(odd) {
+      border-right: 1px solid black !important; }
+
+  /* end partners */
   .grid_content, article.inscription section.header_form h1, article.inscription section.header_form p, article.why ul li h3, article.why ul li p, article.colaboradores section ul, article.decoration h2, article.decoration p, article.faq section h4, article.faq section p, header section p, footer section {
     width: 90%; }
 
@@ -742,3 +921,4 @@ footer {
     margin: 0;
     float: none; } }
 /* responsive */
+/* webfont */

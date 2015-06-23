@@ -1,0 +1,195 @@
+article {
+	&.welcome_partners {
+		background: black url('../img/partners-h4ckademy.jpg')  center center no-repeat;
+		background-size: 100%;
+		section {
+			margin-top: 60px !important;
+			padding-top: 150px !important;
+			width: 85%;
+			margin: 0 auto;
+			h1, p {
+				max-width: 800px;
+			}
+			h1 {
+				font-weight: 400;
+				font-size: 1.8em;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				opacity: 0.7;
+				color: white;
+			}
+			p {
+				line-height: 1.4em;
+				padding: 20px 0 50px 0;
+				font-size: 4em;
+				color: white;
+				font-weight: 100;
+			}
+		}
+	}
+	&.info_partners {
+		padding: 100px 0 0 0 !important;
+		p {
+			padding: 50px 0 0 0;
+			font-size: 2em;
+			width: 90%;
+			margin: 0 auto;
+			text-align: center;
+			font-size: 2em;
+			&.or-back {
+				padding-top: 25px;
+				font-size: 1.5em;
+				padding-bottom: 150px;
+				font-style: italic;
+				a {
+					display: block;
+					padding-top: 25px;
+					color: $gdark;
+				}
+			}
+			a {
+				color: $corporative;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		ul.info_partners_text_info {
+			overflow: hidden;
+			padding: 50px 0 150px 0;
+			li {
+				width: 25%;
+				float: left;
+				.reasons {
+					width: 100px;
+					height: auto;
+					padding: 50px 0;
+					text-align: center;
+					line-height: 0;
+					margin: 15px auto;
+					@extend .circle;
+					font-size: 4.2em;
+					font-weight: 100;
+					border: 2px solid $corporative;
+				}
+				p {
+					width: 80%;
+					margin: 0 auto;
+					padding: 25px 0;
+					text-align: center;
+					font-size: 2em;
+				}
+			}
+		}
+		section {
+			&.info_partners_images {
+				margin-top: 50px;
+				padding: 50px 0 0 0;
+				background: transparent url('../img/cielo.jpg') top no-repeat;
+				background-size: auto 100%;
+				ul.info_partners_images_links {
+					padding: 50px 0;
+					max-width: 800px;
+					margin: 0 auto;
+					overflow: hidden;
+					li {
+						width: 33%;
+						border-right: 1px solid black;
+						border-sizing: border-box;
+						float: left;
+						padding: 0 0 50px 0;
+						@extend .t;
+						&:nth-child(3), &:nth-child(6), &:nth-child(9), &:nth-child(12), &:nth-child(15){
+							border-right: 0;
+						}
+						a.icons-all-partners {
+							width: 158px;
+							height: 80px;
+							margin: 0 auto;
+							text-indent: -9999999px;
+							display: block;
+							background: transparent url('../img/partners-all.png') no-repeat;
+							@extend .t;
+							opacity: 1;
+							&:hover {
+								opacity: 0.4;
+							}
+						}
+						a {
+							&.ic-01 {
+								background-position: -45px -9px;
+							}
+							&.ic-02 {
+								background-position: -45px -99px;
+							}
+							&.ic-03 {
+								background-position: -45px -194px;
+							}
+							&.ic-04 {
+								background-position: -45px -284px;
+							}
+							&.ic-05 {
+								background-position: -45px -379px;
+							}
+							&.ic-06 {
+								background-position: -45px -469px;
+							}
+							&.ic-07 {
+								background-position: -45px -559px;
+							}
+							&.ic-08 {
+								background-position: -45px -649px;
+							}
+							&.ic-09 {
+								background-position: -45px -739px;
+							}
+							&.ic-10 {
+								background-position: -45px -829px;
+							}
+							&.ic-11 {
+								background-position: -45px -919px;
+							}
+							&.ic-12 {
+								background-position: -45px -1014px;
+							}
+							&.ic-13 {
+								background-position: -45px -1109px;
+							}
+							&.ic-14 {
+								background-position: -45px -1180px;
+							}
+							&.ic-15 {
+								background-position: -45px -1279px;
+							}
+						}
+					}
+				} 
+			}
+		}
+	}
+	&.partners_page {
+		padding: 150px 0;
+		section {
+			height: auto !important;	
+			h2 {
+				padding: 50px 0;
+			}
+			h2 {
+				text-align: center;
+				font-size: 3em;
+			}
+		}
+	}
+}
+
+header.nav-page {
+	a {
+		display: block !important;
+		border: 0 !important;
+		width: auto !important;
+		&:hover {
+			background: transparent !important;
+			text-decoration: underline;
+		}
+	}
+}

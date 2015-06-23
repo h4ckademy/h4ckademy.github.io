@@ -1,4 +1,18 @@
 article {
+	&.partners_page {
+		margin-top: 0 !important;
+		padding-top: 0 !important;
+		h2 {
+			&.title_two_partner {
+				color: white;
+				padding: 50px;
+				font-size: 3em;
+				letter-spacing: -1px;
+				text-align: center;
+				font-weight: 400;
+			}
+		}
+	}
 	&.thanks {
 		padding: 150px 0;
 		p {

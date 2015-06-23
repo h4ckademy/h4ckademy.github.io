@@ -69,3 +69,7 @@ $inputform: #474545;
 .rad_small {
 	@include border-radius(4px);
 }
+
+.circle {
+  @include border-radius(100%);
+}

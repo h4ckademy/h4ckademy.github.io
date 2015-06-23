@@ -19,9 +19,33 @@
       }
     }
   }
+  article.welcome_partners {
+    background-size: auto 100% !important;
+    p {
+      font-size: 2.5em !important;
+    }
+  }
 }
 
-@media only screen and (max-width: 768px) {    
+@media only screen and (max-width: 768px) {  
+  /* partner page */  
+  ul.info_partners_text_info {
+    li {
+      width: 100% !important;
+      float: none;
+    }
+  }
+  ul.info_partners_images_links {
+    li {
+      width: 50% !important; 
+      border: 0 !important;
+      box-sizing: border-box;
+      &:nth-child(odd) {
+        border-right: 1px solid black !important;
+      }
+    }
+  }
+  /* end partners */
   .grid_content {
     width: 90%;
   }
