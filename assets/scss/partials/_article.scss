@@ -295,20 +295,13 @@ article {
     padding-bottom: 100px !important;
     background: $gdark;
     a.link-partner {
-      color: white;
-      text-decoration: none;
+      color: #6d6d6d;
       font-size: 2em;
       @extend .t;
-      span {
-        @extend .rad_small;
-        padding: 10px 20px;
-        background: rgba(0,0,0,0.2);
-      }
+
       &:hover {
-        color: black;
-        span {
-          background: white;
-        }
+        color: white;
+        text-decoration: none;
       }
     }
     section {
