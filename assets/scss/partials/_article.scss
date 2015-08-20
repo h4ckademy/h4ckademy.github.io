@@ -35,7 +35,7 @@ article {
             margin: 0 auto;
           }
           h3 {
-            padding: 5% 0;
+            padding: 0 0 5% 0;
             font-size: 2em;
             a {
               color: $gdark;
@@ -59,9 +59,10 @@ article {
             a {
               color: $gdark;
               text-decoration: none;
+              border-bottom: 2px solid $glight;
               font-style: italic;
               &:hover {
-                text-decoration: underline;
+                border-bottom: 2px solid $gdark;
                 color: $gdark;
               }
             }
