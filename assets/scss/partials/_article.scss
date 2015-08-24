@@ -130,6 +130,48 @@ article {
       }
     }
   }
+  &.showcases {
+    overflow: hidden;
+    h2 {
+      @extend .title_format;
+    }
+    section {
+      width: 33%;
+      float: left;
+      height: auto;
+      background: $gdark;
+      color: white;
+      position: relative;
+      .experience-quote {
+        width: 90%;
+        bottom: 0;
+        left: 5%;
+        position: absolute;
+        p {
+          font-style: italic;
+          text-align: center;
+          padding: 20px;
+          font-size: 2em;
+          line-height: 28px;
+          font-family: Georgia, serif;
+          span {
+            display: block;
+            padding-top: 5px;
+            font-family: sans-serif !important;
+            font-size: 0.6em;
+            a {
+              color: white;
+            }
+          }
+        }
+      }
+      img {
+        max-width: 100%;
+        opacity: 0.2;
+        height: auto;
+      }
+    }
+  }
   &.why {
     section {
       padding: 5% 0;

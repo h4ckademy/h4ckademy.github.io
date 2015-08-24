@@ -1,6 +1,6 @@
 /* recursos */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500,300italic,400italic);
-.t, .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.thanks p a, article.inscription form section input, article.inscription form section input.button, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.decoration p a, article.partners a.link-partner, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn, article.info_partners section.info_partners_images ul.info_partners_images_links li, article.info_partners section.info_partners_images ul.info_partners_images_links li a.icons-all-partners {
+.t, .title_format span a, article.last-news h2.title_news span a, article.showcases h2 span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a, article.thanks p a, article.inscription form section input, article.inscription form section input.button, article.inscription form section textarea, article.inscription form section label, article.welcome p a.readmore, article.colaboradores section ul li a, article.decoration p a, article.partners a.link-partner, article.partners ul li a.sprite_partners, header section p a, footer section .box_fot a, footer section .newsletter form input, footer section .newsletter form input.btn, article.info_partners section.info_partners_images ul.info_partners_images_links li, article.info_partners section.info_partners_images ul.info_partners_images_links li a.icons-all-partners {
   -webkit-transition: 0.2s ease-in;
   -moz-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
@@ -18,7 +18,7 @@
   margin: 0 auto; }
 
 /* style titles */
-.title_format, article.last-news h2.title_news, article.why h2.title_why, article.partners h2.title_partner, article.faq h2.title_faq {
+.title_format, article.last-news h2.title_news, article.showcases h2, article.why h2.title_why, article.partners h2.title_partner, article.faq h2.title_faq {
   width: 90%;
   margin: 0 auto;
   color: #1d1919;
@@ -28,7 +28,7 @@
   font-size: 3.5em;
   letter-spacing: -1px;
   text-align: center; }
-  .title_format span, article.last-news h2.title_news span, article.why h2.title_why span, article.partners h2.title_partner span, article.faq h2.title_faq span {
+  .title_format span, article.last-news h2.title_news span, article.showcases h2 span, article.why h2.title_why span, article.partners h2.title_partner span, article.faq h2.title_faq span {
     padding-top: 1%;
     display: block;
     text-align: center;
@@ -36,9 +36,9 @@
     font-style: italic;
     font-size: 0.6em;
     color: #6d6d6d; }
-    .title_format span a, article.last-news h2.title_news span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a {
+    .title_format span a, article.last-news h2.title_news span a, article.showcases h2 span a, article.why h2.title_why span a, article.partners h2.title_partner span a, article.faq h2.title_faq span a {
       color: #6d6d6d; }
-      .title_format span a:hover, article.last-news h2.title_news span a:hover, article.why h2.title_why span a:hover, article.partners h2.title_partner span a:hover, article.faq h2.title_faq span a:hover {
+      .title_format span a:hover, article.last-news h2.title_news span a:hover, article.showcases h2 span a:hover, article.why h2.title_why span a:hover, article.partners h2.title_partner span a:hover, article.faq h2.title_faq span a:hover {
         color: #1d1919; }
 
 /* Radius */
@@ -400,6 +400,38 @@ article {
         box-sizing: content-box; }
         article.welcome p a.readmore:hover {
           opacity: 1; }
+  article.showcases {
+    overflow: hidden; }
+    article.showcases section {
+      width: 33%;
+      float: left;
+      height: auto;
+      background: #1d1919;
+      color: white;
+      position: relative; }
+      article.showcases section .experience-quote {
+        width: 90%;
+        bottom: 0;
+        left: 5%;
+        position: absolute; }
+        article.showcases section .experience-quote p {
+          font-style: italic;
+          text-align: center;
+          padding: 20px;
+          font-size: 2em;
+          line-height: 28px;
+          font-family: Georgia, serif; }
+          article.showcases section .experience-quote p span {
+            display: block;
+            padding-top: 5px;
+            font-family: sans-serif !important;
+            font-size: 0.6em; }
+            article.showcases section .experience-quote p span a {
+              color: white; }
+      article.showcases section img {
+        max-width: 100%;
+        opacity: 0.2;
+        height: auto; }
   article.why section {
     padding: 5% 0;
     height: inherit !important; }
