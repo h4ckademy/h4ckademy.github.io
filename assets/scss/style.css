@@ -890,6 +890,9 @@ header.nav-page a {
   .grid_content, article.inscription section.header_form h1, article.inscription section.header_form p, article.why ul li h3, article.why ul li p, article.colaboradores section ul, article.decoration h2, article.decoration p, article.faq section h4, article.faq section p, header section p, footer section {
     width: 90%; }
 
+  article.showcases section {
+    width: 100% !important;
+    float: none !important; }
   article.inscription section.two_columns {
     width: 100% !important;
     float: none !important; }
