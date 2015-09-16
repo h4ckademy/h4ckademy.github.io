@@ -50,6 +50,12 @@
     width: 90%;
   }
   article {
+    &.showcases {
+      section {
+        width: 100% !important;
+        float: none !important;
+      }
+    }
     &.inscription {
       section {
         &.two_columns {
