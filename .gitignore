@@ -16,4 +16,11 @@ xcuserdata
 # svn & cvs
 .svn
 CVS
-.sass.cache
+
+.sass-cache/*
+
+assets/.sass-cache/*
+
+assets/scss/style.css
+
+assets/scss/style.css.map
