@@ -46,7 +46,7 @@
 			</section>
 			<section class="two_columns form_section">
 				<select name="age" id="age" required="true">
-					<option value="">Select Age</option>
+					<option value="">Select Age Range</option>
 					<option value="1">&lt; 18</option>
 					<option value="2">18 - 24</option>
 					<option value="3">25 - 34</option>
@@ -62,6 +62,13 @@
 						<option value="2">Self-employed</option>
 						<option value="3">Paid employment</option>
 						<option value="4">Unemployed</option>
+					</select>
+			</section>
+			<section class="two_columns form_section">
+					<select name="gender" id="gender" required="true">
+						<option value="">Gender</option>
+						<option value="1">Female</option>
+						<option value="2">Male</option>
 					</select>
 			</section>
 			<h2>
@@ -101,6 +108,10 @@
 			<section class="one_column form_section">
 				<label>What are your learning objectives for the 9 weeks? What kind of projects do you want to work on?</label>
 				<textarea name="objective" id="objective" maxlength="1500" required="true"></textarea>
+			</section>
+			<section>
+				<input type="checkbox" name="job" id="job" required="true">
+				<label>I'm interested in finding a job during <strong>h4ckademy</strong></label>
 			</section>
 			<section class="one_column form_section">
 				<!-- Upss! It seems that the submit button is not correct! I guess you'll manage to send the application anyway ;) -->
