@@ -77,6 +77,11 @@ article {
             text-transform: uppercase;
           }
         }
+        input[type=checkbox]{
+          width: 20px;
+          height: 40px;
+          margin-left: 20px;
+        }
         input, textarea, select {
           width: 95%;
           margin: 0 auto;
