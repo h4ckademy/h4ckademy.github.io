@@ -116,7 +116,7 @@ article {
 							}
 						}
 						a {
-							&.ic-01 {
+							&.ic-01 {/* delete */
 								background-position: -45px -9px;
 							}
 							&.ic-02 {
@@ -170,8 +170,14 @@ article {
 							&.ic-23 {
 								background-position: -47px -1508px;
 							}
-							&.ic-24 {
+							&.ic-24 {/* delete */
 								background-position: -47px -1429px;
+							}
+							&.ic-25 {
+								background-position: -50px -1645px;
+							}
+							&.ic-26 {
+								background-position: -50px -1714px;
 							}
 						}
 					}

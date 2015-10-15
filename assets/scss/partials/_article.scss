@@ -363,7 +363,7 @@ article {
         a {
           &.sprite_partners {
             display: block;
-            width: 222px;
+            width: 218px;
             height: 90px;
             margin: 0 auto;
             text-indent: -99999px;
@@ -386,8 +386,11 @@ article {
           &.people {
             background-position: 9px -231px;
           }
-          &.lextrend {
+          &.guud {
             background-position: -192px -126px;
+          }
+          &.lextrend-home {
+            background-position: -186px -234px;
           }
         }
       }
