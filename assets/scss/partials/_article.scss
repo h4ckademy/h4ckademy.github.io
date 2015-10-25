@@ -406,6 +406,9 @@ article {
     h2.title_faq {
       @extend .title_format;
     }
+    a {
+      color: $glight;
+    }
     section {
       height: auto !important;
       h4, p {
