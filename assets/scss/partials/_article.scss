@@ -134,7 +134,7 @@ article {
       @extend .title_format;
     }
     section {
-      width: 33%;
+      width: 33.33%;
       float: left;
       height: auto;
       background: $gdark;
@@ -167,6 +167,10 @@ article {
         max-width: 100%;
         opacity: 0.2;
         height: auto;
+        @extend .t;
+        &:hover {
+          opacity: 0.5;
+        }
       }
     }
   }
