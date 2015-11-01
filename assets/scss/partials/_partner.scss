@@ -99,7 +99,7 @@ article {
 						float: left;
 						padding: 0 0 50px 0;
 						@extend .t;
-						&:nth-child(3), &:nth-child(6), &:nth-child(9), &:nth-child(12), &:nth-child(15){
+						&:nth-child(3), &:nth-child(6), &:nth-child(9), &:nth-child(12), &:nth-child(15), &:nth-child(18){
 							border-right: 0;
 						}
 						a.icons-all-partners {
