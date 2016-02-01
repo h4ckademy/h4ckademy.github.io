@@ -261,6 +261,12 @@ article {
               height: 99px;
               background: transparent url('../img/colaboradores.png') no-repeat;
             }
+            &.materia-prima{
+              background: transparent url('../img/materia-prima.png') no-repeat;
+              background-position-x: 5px;
+              width: 220px;
+              height: 99px;
+            }
             &.codemotion {
               background-position: -1838px -9px;
             }
